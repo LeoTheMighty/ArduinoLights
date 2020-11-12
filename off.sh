@@ -1,0 +1,1 @@
+. uploadToAllParallel.sh off
