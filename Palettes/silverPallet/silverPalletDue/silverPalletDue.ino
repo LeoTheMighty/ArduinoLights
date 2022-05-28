@@ -8,33 +8,12 @@
 CRGB leds[NUM_LEDS];
 
 #define UPDATES_PER_SECOND 100
+DEFINE_GRADIENT_PALETTE( silvergray_gp ) {
+    0,  42, 55, 45,
+  127, 255,255,255,
+  255,  42, 55, 45};
 
-// Gradient palette "Greys_09_gp", originally from
-// http://soliton.vm.bytemark.co.uk/pub/cpt-city/cb/seq/tn/Greys_09.png.index.html
-// converted for FastLED with gammas (2.6, 2.2, 2.5)
-// Size: 72 bytes of program space.
-
-DEFINE_GRADIENT_PALETTE( Greys_09_gp ) {
-    0, 255,255,255,
-   28, 255,255,255,
-   28, 217,223,219,
-   56, 217,223,219,
-   56, 167,178,170,
-   84, 167,178,170,
-   84, 117,131,120,
-  113, 117,131,120,
-  113,  64, 79, 67,
-  141,  64, 79, 67,
-  141,  32, 44, 34,
-  170,  32, 44, 34,
-  170,  13, 21, 14,
-  198,  13, 21, 14,
-  198,   1,  3,  2,
-  226,   1,  3,  2,
-  226,   0,  0,  0,
-  255,   0,  0,  0};
-
-CRGBPalette16 currentPalette = Greys_09_gp;
+CRGBPalette16 currentPalette = silvergray_gp;
 #define currentBlending LINEARBLEND
 
 void setup() {

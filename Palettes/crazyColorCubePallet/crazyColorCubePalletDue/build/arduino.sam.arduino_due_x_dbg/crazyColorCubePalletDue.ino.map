@@ -285,7 +285,7 @@ Discarded input sections
                 0x00000000       0x20 C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2\libraries\FastLED\bitswap.cpp.o
  .debug_ranges  0x00000000       0x28 C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2\libraries\FastLED\bitswap.cpp.o
  .debug_line    0x00000000      0x4f2 C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2\libraries\FastLED\bitswap.cpp.o
- .debug_str     0x00000000     0x1683 C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2\libraries\FastLED\bitswap.cpp.o
+ .debug_str     0x00000000     0x1681 C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2\libraries\FastLED\bitswap.cpp.o
  .comment       0x00000000       0x71 C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2\libraries\FastLED\bitswap.cpp.o
  .ARM.attributes
                 0x00000000       0x33 C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2\libraries\FastLED\bitswap.cpp.o
@@ -316,7 +316,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2\libraries\FastLED\colorpalettes.cpp.o
  .debug_line    0x00000000      0x4e8 C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2\libraries\FastLED\colorpalettes.cpp.o
- .debug_str     0x00000000     0x1772 C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2\libraries\FastLED\colorpalettes.cpp.o
+ .debug_str     0x00000000     0x1770 C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2\libraries\FastLED\colorpalettes.cpp.o
  .comment       0x00000000       0x71 C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2\libraries\FastLED\colorpalettes.cpp.o
  .ARM.attributes
                 0x00000000       0x33 C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2\libraries\FastLED\colorpalettes.cpp.o
@@ -455,7 +455,7 @@ Discarded input sections
                 0x00000000       0x60 C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2\libraries\FastLED\hsv2rgb.cpp.o
  .debug_ranges  0x00000000       0xe8 C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2\libraries\FastLED\hsv2rgb.cpp.o
  .debug_line    0x00000000      0x815 C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2\libraries\FastLED\hsv2rgb.cpp.o
- .debug_str     0x00000000     0x1954 C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2\libraries\FastLED\hsv2rgb.cpp.o
+ .debug_str     0x00000000     0x1952 C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2\libraries\FastLED\hsv2rgb.cpp.o
  .comment       0x00000000       0x71 C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2\libraries\FastLED\hsv2rgb.cpp.o
  .ARM.attributes
                 0x00000000       0x33 C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2\libraries\FastLED\hsv2rgb.cpp.o
@@ -470,7 +470,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2\libraries\FastLED\lib8tion.cpp.o
  .debug_line    0x00000000      0x4d6 C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2\libraries\FastLED\lib8tion.cpp.o
- .debug_str     0x00000000     0x16e9 C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2\libraries\FastLED\lib8tion.cpp.o
+ .debug_str     0x00000000     0x16e7 C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2\libraries\FastLED\lib8tion.cpp.o
  .comment       0x00000000       0x71 C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2\libraries\FastLED\lib8tion.cpp.o
  .ARM.attributes
                 0x00000000       0x33 C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2\libraries\FastLED\lib8tion.cpp.o
@@ -542,7 +542,7 @@ Discarded input sections
                 0x00000000       0xf0 C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2\libraries\FastLED\noise.cpp.o
  .debug_ranges  0x00000000      0xc10 C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2\libraries\FastLED\noise.cpp.o
  .debug_line    0x00000000     0x11e3 C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2\libraries\FastLED\noise.cpp.o
- .debug_str     0x00000000     0x1d4c C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2\libraries\FastLED\noise.cpp.o
+ .debug_str     0x00000000     0x1d4a C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2\libraries\FastLED\noise.cpp.o
  .comment       0x00000000       0x71 C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2\libraries\FastLED\noise.cpp.o
  .ARM.attributes
                 0x00000000       0x33 C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2\libraries\FastLED\noise.cpp.o
@@ -589,7 +589,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2\libraries\FastLED\wiring.cpp.o
  .debug_line    0x00000000      0x4c3 C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2\libraries\FastLED\wiring.cpp.o
- .debug_str     0x00000000     0x164e C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2\libraries\FastLED\wiring.cpp.o
+ .debug_str     0x00000000     0x164c C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2\libraries\FastLED\wiring.cpp.o
  .comment       0x00000000       0x71 C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2\libraries\FastLED\wiring.cpp.o
  .ARM.attributes
                 0x00000000       0x33 C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2\libraries\FastLED\wiring.cpp.o
@@ -3034,51 +3034,51 @@ OUTPUT(C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA6722
  .debug_line    0x000077cf      0x7f6 C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2/..\arduino-core-cache\core_arduino_sam_arduino_due_x_dbg_b83292a7f641aea99c65ab6c0fd050e8.a(CDC.cpp.o)
  .debug_line    0x00007fc5      0x2f3 C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2/..\arduino-core-cache\core_arduino_sam_arduino_due_x_dbg_b83292a7f641aea99c65ab6c0fd050e8.a(PluggableUSB.cpp.o)
 
-.debug_str      0x00000000     0x96a8
- .debug_str     0x00000000     0x3c4e C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2\sketch\crazyColorCubePalletDue.ino.cpp.o
-                               0x3f54 (size before relaxing)
- .debug_str     0x00003c4e      0x139 C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2\libraries\FastLED\FastLED.cpp.o
-                               0x211b (size before relaxing)
- .debug_str     0x00003d87     0x10d4 C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2\libraries\FastLED\colorutils.cpp.o
-                               0x2c06 (size before relaxing)
- .debug_str     0x00004e5b      0x3b8 C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2\libraries\FastLED\power_mgt.cpp.o
-                               0x225a (size before relaxing)
- .debug_str     0x00005213      0x9de C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2\core\variant.cpp.o
-                               0x11da (size before relaxing)
- .debug_str     0x00005bf1      0x21f C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2/..\arduino-core-cache\core_arduino_sam_arduino_due_x_dbg_b83292a7f641aea99c65ab6c0fd050e8.a(WInterrupts.c.o)
-                                0xb74 (size before relaxing)
- .debug_str     0x00005e10       0xd8 C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2/..\arduino-core-cache\core_arduino_sam_arduino_due_x_dbg_b83292a7f641aea99c65ab6c0fd050e8.a(cortex_handlers.c.o)
-                                0x2e0 (size before relaxing)
- .debug_str     0x00005ee8       0x70 C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2/..\arduino-core-cache\core_arduino_sam_arduino_due_x_dbg_b83292a7f641aea99c65ab6c0fd050e8.a(hooks.c.o)
+.debug_str      0x00000000     0x96a6
+ .debug_str     0x00000000     0x3c4c C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2\sketch\crazyColorCubePalletDue.ino.cpp.o
+                               0x3f52 (size before relaxing)
+ .debug_str     0x00003c4c      0x139 C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2\libraries\FastLED\FastLED.cpp.o
+                               0x2119 (size before relaxing)
+ .debug_str     0x00003d85     0x10d4 C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2\libraries\FastLED\colorutils.cpp.o
+                               0x2c04 (size before relaxing)
+ .debug_str     0x00004e59      0x3b8 C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2\libraries\FastLED\power_mgt.cpp.o
+                               0x2258 (size before relaxing)
+ .debug_str     0x00005211      0x9de C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2\core\variant.cpp.o
+                               0x11d8 (size before relaxing)
+ .debug_str     0x00005bef      0x21f C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2/..\arduino-core-cache\core_arduino_sam_arduino_due_x_dbg_b83292a7f641aea99c65ab6c0fd050e8.a(WInterrupts.c.o)
+                                0xb72 (size before relaxing)
+ .debug_str     0x00005e0e       0xd8 C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2/..\arduino-core-cache\core_arduino_sam_arduino_due_x_dbg_b83292a7f641aea99c65ab6c0fd050e8.a(cortex_handlers.c.o)
+                                0x2de (size before relaxing)
+ .debug_str     0x00005ee6       0x70 C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2/..\arduino-core-cache\core_arduino_sam_arduino_due_x_dbg_b83292a7f641aea99c65ab6c0fd050e8.a(hooks.c.o)
                                 0x13a (size before relaxing)
- .debug_str     0x00005f58      0x1f3 C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2/..\arduino-core-cache\core_arduino_sam_arduino_due_x_dbg_b83292a7f641aea99c65ab6c0fd050e8.a(syscalls_sam3.c.o)
-                                0x4a9 (size before relaxing)
- .debug_str     0x0000614b       0x87 C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2/..\arduino-core-cache\core_arduino_sam_arduino_due_x_dbg_b83292a7f641aea99c65ab6c0fd050e8.a(wiring.c.o)
-                                0x34a (size before relaxing)
- .debug_str     0x000061d2      0x740 C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2/..\arduino-core-cache\core_arduino_sam_arduino_due_x_dbg_b83292a7f641aea99c65ab6c0fd050e8.a(wiring_analog.c.o)
-                               0x103d (size before relaxing)
- .debug_str     0x00006912       0xcb C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2/..\arduino-core-cache\core_arduino_sam_arduino_due_x_dbg_b83292a7f641aea99c65ab6c0fd050e8.a(wiring_digital.c.o)
-                                0x9ee (size before relaxing)
- .debug_str     0x000069dd       0xf2 C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2/..\arduino-core-cache\core_arduino_sam_arduino_due_x_dbg_b83292a7f641aea99c65ab6c0fd050e8.a(Reset.cpp.o)
-                                0x3c1 (size before relaxing)
- .debug_str     0x00006acf       0x7b C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2/..\arduino-core-cache\core_arduino_sam_arduino_due_x_dbg_b83292a7f641aea99c65ab6c0fd050e8.a(RingBuffer.cpp.o)
+ .debug_str     0x00005f56      0x1f3 C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2/..\arduino-core-cache\core_arduino_sam_arduino_due_x_dbg_b83292a7f641aea99c65ab6c0fd050e8.a(syscalls_sam3.c.o)
+                                0x4a7 (size before relaxing)
+ .debug_str     0x00006149       0x87 C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2/..\arduino-core-cache\core_arduino_sam_arduino_due_x_dbg_b83292a7f641aea99c65ab6c0fd050e8.a(wiring.c.o)
+                                0x348 (size before relaxing)
+ .debug_str     0x000061d0      0x740 C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2/..\arduino-core-cache\core_arduino_sam_arduino_due_x_dbg_b83292a7f641aea99c65ab6c0fd050e8.a(wiring_analog.c.o)
+                               0x103b (size before relaxing)
+ .debug_str     0x00006910       0xcb C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2/..\arduino-core-cache\core_arduino_sam_arduino_due_x_dbg_b83292a7f641aea99c65ab6c0fd050e8.a(wiring_digital.c.o)
+                                0x9ec (size before relaxing)
+ .debug_str     0x000069db       0xf2 C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2/..\arduino-core-cache\core_arduino_sam_arduino_due_x_dbg_b83292a7f641aea99c65ab6c0fd050e8.a(Reset.cpp.o)
+                                0x3bf (size before relaxing)
+ .debug_str     0x00006acd       0x7b C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2/..\arduino-core-cache\core_arduino_sam_arduino_due_x_dbg_b83292a7f641aea99c65ab6c0fd050e8.a(RingBuffer.cpp.o)
                                 0x2a3 (size before relaxing)
- .debug_str     0x00006b4a      0xf6f C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2/..\arduino-core-cache\core_arduino_sam_arduino_due_x_dbg_b83292a7f641aea99c65ab6c0fd050e8.a(UARTClass.cpp.o)
-                               0x17a4 (size before relaxing)
- .debug_str     0x00007ab9      0x253 C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2/..\arduino-core-cache\core_arduino_sam_arduino_due_x_dbg_b83292a7f641aea99c65ab6c0fd050e8.a(USARTClass.cpp.o)
-                                0xa0c (size before relaxing)
- .debug_str     0x00007d0c      0x12d C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2/..\arduino-core-cache\core_arduino_sam_arduino_due_x_dbg_b83292a7f641aea99c65ab6c0fd050e8.a(main.cpp.o)
-                                0x400 (size before relaxing)
- .debug_str     0x00007e39      0x121 C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2/..\arduino-core-cache\core_arduino_sam_arduino_due_x_dbg_b83292a7f641aea99c65ab6c0fd050e8.a(watchdog.cpp.o)
+ .debug_str     0x00006b48      0xf6f C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2/..\arduino-core-cache\core_arduino_sam_arduino_due_x_dbg_b83292a7f641aea99c65ab6c0fd050e8.a(UARTClass.cpp.o)
+                               0x17a2 (size before relaxing)
+ .debug_str     0x00007ab7      0x253 C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2/..\arduino-core-cache\core_arduino_sam_arduino_due_x_dbg_b83292a7f641aea99c65ab6c0fd050e8.a(USARTClass.cpp.o)
+                                0xa0a (size before relaxing)
+ .debug_str     0x00007d0a      0x12d C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2/..\arduino-core-cache\core_arduino_sam_arduino_due_x_dbg_b83292a7f641aea99c65ab6c0fd050e8.a(main.cpp.o)
+                                0x3fe (size before relaxing)
+ .debug_str     0x00007e37      0x121 C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2/..\arduino-core-cache\core_arduino_sam_arduino_due_x_dbg_b83292a7f641aea99c65ab6c0fd050e8.a(watchdog.cpp.o)
                                 0x315 (size before relaxing)
- .debug_str     0x00007f5a      0x3f0 C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2/..\arduino-core-cache\core_arduino_sam_arduino_due_x_dbg_b83292a7f641aea99c65ab6c0fd050e8.a(Print.cpp.o)
-                               0x1023 (size before relaxing)
- .debug_str     0x0000834a      0xe04 C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2/..\arduino-core-cache\core_arduino_sam_arduino_due_x_dbg_b83292a7f641aea99c65ab6c0fd050e8.a(USBCore.cpp.o)
-                               0x1322 (size before relaxing)
- .debug_str     0x0000914e      0x4c6 C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2/..\arduino-core-cache\core_arduino_sam_arduino_due_x_dbg_b83292a7f641aea99c65ab6c0fd050e8.a(CDC.cpp.o)
-                               0x1d21 (size before relaxing)
- .debug_str     0x00009614       0x94 C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2/..\arduino-core-cache\core_arduino_sam_arduino_due_x_dbg_b83292a7f641aea99c65ab6c0fd050e8.a(PluggableUSB.cpp.o)
-                                0x5c0 (size before relaxing)
+ .debug_str     0x00007f58      0x3f0 C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2/..\arduino-core-cache\core_arduino_sam_arduino_due_x_dbg_b83292a7f641aea99c65ab6c0fd050e8.a(Print.cpp.o)
+                               0x1021 (size before relaxing)
+ .debug_str     0x00008348      0xe04 C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2/..\arduino-core-cache\core_arduino_sam_arduino_due_x_dbg_b83292a7f641aea99c65ab6c0fd050e8.a(USBCore.cpp.o)
+                               0x1320 (size before relaxing)
+ .debug_str     0x0000914c      0x4c6 C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2/..\arduino-core-cache\core_arduino_sam_arduino_due_x_dbg_b83292a7f641aea99c65ab6c0fd050e8.a(CDC.cpp.o)
+                               0x1d1f (size before relaxing)
+ .debug_str     0x00009612       0x94 C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2/..\arduino-core-cache\core_arduino_sam_arduino_due_x_dbg_b83292a7f641aea99c65ab6c0fd050e8.a(PluggableUSB.cpp.o)
+                                0x5be (size before relaxing)
 
 .debug_frame    0x00000000     0x2514
  .debug_frame   0x00000000      0x1ac C:\Users\Leo\AppData\Local\Temp\arduino-sketch-8661C474FBD9E968E0B0EA67226858B2\sketch\crazyColorCubePalletDue.ino.cpp.o

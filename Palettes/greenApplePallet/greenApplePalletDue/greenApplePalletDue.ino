@@ -8,30 +8,9 @@
 CRGB leds[NUM_LEDS];
 
 #define UPDATES_PER_SECOND 100
-
 DEFINE_GRADIENT_PALETTE( apple_green_gp ) {
-    0,  83,235,  1,
-   25,  83,235,  1,
-   25,  38,197,  1,
-   51,  38,197,  1,
-   51,  15,161,  1,
-   76,  15,161,  1,
-   76,   5,130,  1,
-  102,   5,130,  1,
-  102,   1,103,  1,
-  127,   1,103,  1,
-  127,   1, 79,  4,
-  153,   1, 79,  4,
-  153,   1, 57,  7,
-  178,   1, 57,  7,
-  178,   1, 40,  9,
-  204,   1, 40,  9,
-  204,   1, 27,  9,
-  229,   1, 27,  9,
-  229,   1, 15,  7,
-  255,   1, 15,  7};
-
-
+    0,   0, 55,  0,
+  255, 117,161,  1};
 
 CRGBPalette16 currentPalette = apple_green_gp;
 #define currentBlending LINEARBLEND

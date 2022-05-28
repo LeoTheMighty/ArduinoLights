@@ -1,1 +1,1 @@
-. uploadToAllParallel.sh off
+. upload.sh off

@@ -8,39 +8,26 @@
 CRGB leds[NUM_LEDS];
 
 #define UPDATES_PER_SECOND 100
+DEFINE_GRADIENT_PALETTE( firstlove_gp ) {
+    0, 249, 63, 72,
+   35, 155, 81,192,
+   79, 249,108, 93,
+   99, 247, 33,100,
+  119, 247, 59, 80,
+  153, 188, 70,106,
+  186, 137, 26, 99,
+  211, 249,195,212,
+  242, 247, 33,100,
+  255, 247, 33,100};
 
-DEFINE_GRADIENT_PALETTE( violent_pink_red_gp ) {
-    0, 252,215,221,
-   25, 252,215,221,
-   25, 249,146,160,
-   51, 249,146,160,
-   51, 247, 92,112,
-   76, 247, 92,112,
-   76, 244, 51, 73,
-  102, 244, 51, 73,
-  102, 242, 22, 44,
-  127, 242, 22, 44,
-  127, 224,  8, 25,
-  153, 224,  8, 25,
-  153, 153,  8, 21,
-  178, 153,  8, 21,
-  178, 100,  8, 16,
-  204, 100,  8, 16,
-  204,  58,  8, 12,
-  229,  58,  8, 12,
-  229,  30,  6,  8,
-  255,  30,  6,  8};
-
-
-
-
-CRGBPalette16 currentPalette = violent_pink_red_gp;
+CRGBPalette16 currentPalette = firstlove_gp;
 #define currentBlending LINEARBLEND
 
 void setup() {
     delay(3000); // power-up safety delay
     FastLED.addLeds<LED_TYPE, LED_PIN, COLOR_ORDER>(leds, NUM_LEDS).setCorrection(TypicalLEDStrip);
     FastLED.setBrightness(BRIGHTNESS);
+    FastLED.setMaxPowerInVoltsAndMilliamps(5, 1000);
 }
 
 
