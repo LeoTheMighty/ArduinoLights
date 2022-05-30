@@ -1,0 +1,12 @@
+{
+  "additionalFiles": "",
+  "builtInLibrariesFolders": "/Applications/Arduino.app/Contents/Java/libraries",
+  "builtInToolsFolders": "",
+  "compiler.optimization_flags": "",
+  "customBuildProperties": "",
+  "fqbn": "arduino:sam:arduino_due_x_dbg",
+  "hardwareFolders": "/Users/leonid.belyi/Library/Arduino15/packages",
+  "otherLibrariesFolders": "/Users/leonid.belyi/Documents/Arduino/libraries",
+  "runtime.ide.version": "10607",
+  "sketchLocation": "/Users/leonid.belyi/personal/ArduinoLights/Palettes/desertPallet/desertPalletDue/desertPalletDue.ino"
+}

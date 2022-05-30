@@ -1,6 +1,6 @@
 if [ -z ${1+x} ]; then
 	echo "Usage: ./upload.sh <PalletName> [force]";
-	return;
+	exit;
 fi
 
 FORCE="$2"
@@ -9,32 +9,41 @@ echo
 echo "Setting up $SKETCH..."
 echo
 
-SKETCH_DIRECTORY="/c/Users/Leo/files/Arduino/Palettes/$SKETCH"
+SKETCH_DIRECTORY="/Users/leonid.belyi/personal/ArduinoLights/Palettes/$SKETCH"
 UNO="$SKETCH_DIRECTORY/${SKETCH}Uno"
 DUE="$SKETCH_DIRECTORY/${SKETCH}Due"
 MIC="$SKETCH_DIRECTORY/${SKETCH}Micro"
-UNOBUILD="$UNO/build"
-DUEBUILD="$DUE/build"
-MICBUILD="$MIC/build"
 
-test -d "$UNO" || { echo "Uno directory $UNO does not exist" && return; }
-test -d "$DUE" || { echo "Due directory $DUE does not exist" && return; }
-test -d "$MIC" || { echo "Micro directory $MIC does not exist" && return; }
+UNOPORT="/dev/cu.usbmodem143301"
+DUEPORT="/dev/cu.usbmodem14343101"
+MICPORT="/dev/cu.usbmodem143201"
+
+UNOTYPE="arduino:avr:uno"
+DUETYPE="arduino:sam:arduino_due_x_dbg"
+MICTYPE="arduino:avr:micro"
+
+UNOBUILD="$UNO/build/arduino.avr.uno"
+DUEBUILD="$DUE/build/arduino.sam.arduino_due_x_dbg"
+MICBUILD="$MIC/build/arduino.avr.micro"
+
+test -d "$UNO" || { echo "Uno directory $UNO does not exist" && exit; }
+test -d "$DUE" || { echo "Due directory $DUE does not exist" && exit; }
+test -d "$MIC" || { echo "Micro directory $MIC does not exist" && exit; }
 
 function compile () {
-    # $1 = fbqn, $2 = path
-    arduino-cli compile "$2" -b "$1"
+    # $1 = fbqn, $2 = path, $3 = buildpath
+    arduino-cli compile "$2" -b "$1" --build-path "$3"
 }
 
 function upload () {
     # $1 = fbqn, $2 = port, $3 = path
-    arduino-cli upload "$3" -p "$2" -b "$1"
+    arduino-cli upload -p "$2" -b "$1" --input-dir "$4"
 }
 
 function compile_and_upload () {
-    # $1 = fbqn, $2 = port, $3 = path
+    # $1 = fbqn, $2 = port, $3 = path, $4 = build_path
     arduino-cli compile "$3" -b "$1"
-    arduino-cli upload "$3" -p "$2" -b "$1"
+    arduino-cli upload -p "$2" -b "$1" --input-dir "$4"
 }
 
 function compile_all {
@@ -48,19 +57,19 @@ function compile_all {
 	echo
 	echo "Uno =============>"
 	echo
-	compile arduino:avr:uno "$UNO" &
+	compile "$UNOTYPE" "$UNO" "$UNOBUILD" &
 
 	# DUE
 	echo
 	echo "Due =============>"
 	echo
-	compile arduino:sam:arduino_due_x_dbg "$DUE" &
+	compile "$DUETYPE" "$DUE" "$DUEBUILD" &
 
 	# MIC
 	echo
 	echo "Micro =============>"
 	echo
-	compile arduino:avr:micro "$MIC" &
+	compile "$MICTYPE" "$MIC" "$MICBUILD" &
 
 	wait
 }
@@ -77,19 +86,19 @@ function upload_all {
 	echo
 	echo "Due =============>"
 	echo
-	upload arduino:sam:arduino_due_x_dbg COM4 "$DUE" &
+	upload "$DUETYPE" "$DUEPORT" "$DUE" "$DUEBUILD" &
 
 	# MIC
 	echo
 	echo "Micro =============>"
 	echo
-	(sleep 3 && upload arduino:avr:micro COM13 "$MIC") &
+	(sleep 3 && upload "$MICTYPE" "$MICPORT" "$MIC" "$MICBUILD") &
 
 	# UNO
 	echo
 	echo "Uno =============>"
 	echo
-	(sleep 5 && upload arduino:avr:uno COM3 "$UNO") &
+	(sleep 5 && upload "$UNOTYPE" "$UNOPORT" "$UNO" "$UNOBUILD") &
 
 	# These take the longest to upload so run them in parallel and wait
 	wait
